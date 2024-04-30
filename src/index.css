@@ -20,9 +20,9 @@ body{
 
 
 .title{
-    font-size: 3rem;
+    font-size: 2rem;
     margin:6vh;
-    border: 7px dashed rgb(1,17,160);
+    border: 3px dashed rgb(89, 161, 148);
     border-radius: 20px;
     padding:1vh 5vw;
 }
@@ -38,7 +38,7 @@ body{
 }
 
 .card{
-    width:400px;
+    width:300px;
     height:max-content;
     margin:1rem;
     padding:1rem;
@@ -50,7 +50,7 @@ body{
 }
 
 .image{
-    width:380px;
+    width:280px;
     aspect-ratio: 1/1;
     object-fit: cover;
 }
@@ -68,6 +68,10 @@ body{
     font-size:1.5rem;
 }
 
+.description{
+    font-size: 0.8rem;
+}
+
 .read-more{
     color:#12b0e8;
     cursor: pointer;
@@ -79,7 +83,7 @@ body{
     border: 1px solid #b4161b;
     cursor: pointer;
     border-radius:10px;
-    font-size: 18px;
+    font-size: 10px;
     font-weight: bold;
     background-color: #b4161b21;
 }
